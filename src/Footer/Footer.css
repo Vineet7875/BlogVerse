@@ -1,0 +1,98 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 1rem; */
+  /* background: #20272f; */
+  /* background: #242e38; */
+  /* background: linear-gradient(45deg, black, transparent);
+  --tw-text-opacity: 3;
+  color: rgb(255 255 255 / var(--tw-text-opacity)); */
+  background-color: #f1f1f1;
+}
+
+.copyright {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__logo img {
+  height: 4rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.footer__about {
+  margin-right: 50px;
+  width: 30vw;
+}
+
+.footer__about h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  /* color: hsl(229, 76%, 66%); */
+  color: hsl(229deg 100% 50%);
+}
+
+.footer__about p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  /* --tw-text-opacity: 3;
+  color: rgb(255 255 255 / var(--tw-text-opacity)); */
+}
+
+.footer__links h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  /* color: hsl(229, 76%, 66%); */
+  color: hsl(229deg 100% 50%);
+}
+
+.footer__links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__links li {
+  margin-bottom: 5px;
+}
+
+.footer__links a {
+  /* color: #666; */
+  /* --tw-text-opacity: 3;
+  color: rgb(255 255 255 / var(--tw-text-opacity)); */
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.footer__links a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  /* color: hsl(229, 76%, 66%); */
+  color: hsl(229deg 100% 50%);
+}
+
+#techblog {
+  /* color: hsl(229, 76%, 66%); */
+  color: hsl(229deg 100% 50%);
+}
+
+@media only screen and (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .footer__about {
+    width: 80vw;
+  }
+}

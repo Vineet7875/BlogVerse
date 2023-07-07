@@ -1,0 +1,95 @@
+.Publish {
+  background: #20272f;
+  --tw-text-opacity: 3;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    margin-top: 6rem;
+}
+
+.publish-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 3rem;
+  background: #242e38;
+  --tw-text-opacity: 3;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+
+}
+
+.publish-page h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 52rem;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+}
+
+button[type="submit"] {
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0066cc;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0052a3;
+}
+
+.error-message {
+  font-size: 16px;
+  /* color: #ff0000; */
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 35rem;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 29rem;
+  }
+}

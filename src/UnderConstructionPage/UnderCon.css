@@ -1,0 +1,26 @@
+.underCon {
+    width: 100%;
+    height: 100vh;
+    margin-top: 6rem;
+    background-image: url('C:\Users\HP\Desktop\Blogverse\blogverse\public\under-construction.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* @media only screen and (max-height: 600px) {
+    .underCon {
+        height: 55vh;
+    }
+} */
+@media only screen and (max-width: 600px) {
+    .underCon {
+        height: 60vh;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .underCon {
+        height: 55vh;
+    }
+}
+
